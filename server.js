@@ -35,7 +35,7 @@ fs.readFile('todos.json', (err, data) => {
 })
 
 app.get('/', (req, res)=> {
-  res.send('I\'m alive!')
+  res.send('I\'m alive and well!')
 })
 
 //READ End-point
